@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-vid = cv2.VideoCapture("test2 (1).mp4")
+vid = cv2.VideoCapture("test2 (2).mp4")
 
 def roi(img,vertices):
     mask = np.zeros_like(img)
